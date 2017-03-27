@@ -1,0 +1,35 @@
+1.	A diferença é que é o programa mais importante é  a parte que fica entre o hardware e os programas aplicativos , então o sistema operacional que carrega os programas e aplicativos.
+2.	Para permitir o compartilhamento dos recursos de hardware por diversas aplicações além de gerenciar os recursos do sistema.
+3.	0
+4.	Processo é um trabalho em execução em um sistema computacional, que aloca recursos do sistema para a execução.
+5.	Não, o processador executa partes dos programas isso se chama chaveamento o processador executa por determinado tempo um programa e chaveia e muda para outro programa o tempo desse chaveamento é muito rápido e a impressão que o usuário tem é que está sendo executado mais não está.
+6.	o sistema operacional salva todo o estado do processo que está em execução e carrega o estado do processo que entrará em execução O estado do processo é salvo em uma estrutura chamada PCB (ProcessControl Block).
+7.	Processo é um trabalho em execução em um sistema computacional o thread é a execução de uma sequência de instrução. 
+8-  Preemptivo:
+não depende somente do processo;
+S.O. pode tomar o processador mesmo que ainda tenha processos a executar;
+Não-Preemptivo:
+depende somente do processo;
+processador não pode ser tomado;
+
+
+
+
+
+
+
+
+
+9- First-Come,First-Served (FCFS) : os processos são executados na ordem em que chegam ao escalonador. Pode apresentar diferentes tempos médios de espera de acordo com a ordem de chegada dos processos.
+
+-Shortest JobFirst (SJF):
+ Versão não-preemptiva: uma vez que o processo recebe tempo de CPU, não pode ser interrompido até que utilize o tempo de CPU alocado. 
+
+Versão preemptiva: se um novo processo chega e possui um tempo de CPU menor que o tempo restante do processo em execucão, este será interrompido. Esta forma é conhecida como Shortest-Remaining-TimeFirst (SRTF). 
+
+10-   Cooperação: threads trabalham em cooperação para atingir um objetivo. 
+Ex:
+Semáforo Mecanismos que garantem que somente N processos podem acessar um   certo recurso em um dado momento. 
+        Competição: threads concorrentes disputam pelo uso exclusivo de recursos. 
+Ex:
+Combinação de transferência de dados com exclusão mútua e sincronização. Um processo gera as mensagens (produtor), colocando-as em uma fila de mensagens. O outro processo (consumidor) retira as mensagens da fila. Caso a fila fique totalmente cheia, o processo produtor espera até que seja liberado espaço na fila. Caso a fila fique vazia, o processo consumidor espera até que um novo elemento seja inserido na fila.
