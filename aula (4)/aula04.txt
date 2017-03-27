@@ -1,0 +1,1 @@
+o tempo de execução foi o mesmo, com prioridade e sem prioridade 
