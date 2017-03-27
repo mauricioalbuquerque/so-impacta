@@ -1,0 +1,5 @@
+aula03
+
+na classe exemplo thead simples o incremento é feito e só depois
+de terminado é executado o decremento já na classe exemplo thread 
+os dois são executados um por ves um decremento um incremento.
